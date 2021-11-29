@@ -1,0 +1,19 @@
+{
+  "name": "functional-sketch",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "npx tsc --watch",
+    "run": "browserify"
+  },
+  "devDependencies": {
+    "fp-ts": "^2.11.5",
+    "fp-ts-contrib": "^0.1.26",
+    "graphics-ts": "^1.1.0",
+    "io-ts": "^2.2.16"
+  },
+  "dependencies": {
+    "typescript": "^4.5.2"
+  }
+}
